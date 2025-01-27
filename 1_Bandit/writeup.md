@@ -1105,12 +1105,12 @@ sh: 1: LS: Permission denied
 >> $0
 $ vim
 
+:r /etc/bandit_pass/bandit33
 
 Qdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
 ```
 
 **Explanation: Here we get an interactive shell by inserting $0 in the fake shell, then we run vim end read the password for the next level.**
-
 
 ### Level 33 -> Level 34
 
